@@ -3,29 +3,19 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://chucknorris-eureka-elb-407449240.eu-west-1.elb.amazonaws.com
+      defaultZone: http://chucknorris-eureka-elb-407449240.eu-west-1.elb.amazonaws.com/eureka/
 
 ---
 spring:
-  profiles: subject
-words: I,You,He,She,It
+  profiles: IT
+facts: 
   
 ---
 spring:
-  profiles: verb
-words: ran,knew,had,saw,bought
+  profiles: SCIENCE
+facts: 
 
 ---
 spring:
-  profiles: article
-words: a,the
-
----
-spring:
-  profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
-
----
-spring:
-  profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog
+  profiles: GYM
+words: 
