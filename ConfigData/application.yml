@@ -8,14 +8,14 @@ eureka:
 ---
 spring:
   profiles: IT
-facts: 
+facts: Chuck Norris can delete the Recycling Bin.;Chuck Norris can unit test entire applications with a single assert.;Chuck Norris writes code that optimizes itself.
   
 ---
 spring:
   profiles: SCIENCE
-facts: 
+facts: Chuck Norris doesn't breathe air. He holds air hostage.;Chuck Norris will never have a heart attack. His heart isn't nearly foolish enough to attack him.
 
 ---
 spring:
   profiles: GYM
-words: 
+words: When Chuck Norris works out he doesn't get stronger, the machine does.
